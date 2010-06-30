@@ -1,0 +1,16 @@
+syntax: glob
+build
+.o
+.dex
+.apk
+.ap_
+.DS_Store
+.class
+.sqlite
+.git
+
+relre:projekte/icld/.*/Debug/
+relre:projekte/icld/.*/Release/
+relre:projekte/icld/.*\.dll
+relre:projekte/icld/.*\.exe
+relre:projekte/icld/.*\.ncb
